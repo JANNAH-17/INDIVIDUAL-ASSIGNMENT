@@ -20,10 +20,6 @@ The main purpose of a spike test is to understand how well the system responds t
 
 
 ## ⚙️ Test Configuration (SPIKE TEST)
-<p align="center">
-  <img src="./about.png" width="600">
-</p>
-
 <div align="center">
 
 | **Starts Thread Count** | **Initial Delay (Sec)** | **Startup Time (Sec)** | **Hold Load For (Sec)** | **Shutdown Time (Sec)** |
