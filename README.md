@@ -11,7 +11,7 @@
 **Testing Type:** Spike test, Load Test, Stress test
 **Target Website:** jmeter-plugins.org
  
-## 😵‍💫 What is Spike Test?
+## 😵‍💫1.  What is Spike Test?
 A Spike Test is a type of performance test used to evaluate how a system behaves when it experiences a sudden, extreme increase in load within a very short period of time.
 In JMeter, this involves generating a sharp and rapid rise in the number of virtual users (VUs) to observe the system’s stability, ability to recover, and overall performance under stress. 
 
@@ -99,8 +99,8 @@ Purpose: Introduces a final peak load stage to push the system to its maximum ca
 ## 🧠 **Conclusion**
 
 The spike test demonstrated that the system is generally capable of handling sudden and extreme increases in user load. It confirms that the system can withstand unexpected traffic surges, but improvements in scalability, backend performance, and error handling would further enhance its stability and responsiveness during real-world peak events.
-
-## 😵‍💫 What is Load Test?
+===================================================================================================================================================================================================================
+## 😵‍💫 2. What is Load Test?
 To determine an application behaviour when a large number of users access the application. Load testing is to check how much load a system can handle and helps to identify the maximum operation capacity of any application. 
 
 ## 🧩 Test Plan Setup
@@ -138,13 +138,20 @@ To determine an application behaviour when a large number of users access the ap
 
 ## Conclusion
 The test results demonstrate that the system performs reliably under the given load profile. All endpoints maintained response times under 1.5 seconds, with zero errors, and achieved a healthy aggregate throughput of 23.4 requests per second. Bandwidth usage remained within reasonable levels. These metrics indicate that the system can sustain peak operational conditions without degradation or instability.
+===================================================================================================================================================================================================================
+## 😵‍💫 3. What is Stress Test?
+Stress test is the process of gradually increasing user load beyond expected limits to evaluate how a system performs under peak or excessive pressure. It helps identify the maximum capacity the application can handle before performance degrades or failures occur
 
-## ⚙️ Test Configuration (SPIKE TEST)
+## 🧰 Propose
+Stress test is to test the system behaviour, to push the system beyond its normal operation and it is to determine the system stability.
+
+## ⚙️ Stress Test Thread Group Setup
 <p align="center">
   <img src="./about.png" width="600">
 </p>
 
 <div align="center">
+ !{stress test setup]()
 ---
 
 ## 👩‍💻 Demonstration Video
