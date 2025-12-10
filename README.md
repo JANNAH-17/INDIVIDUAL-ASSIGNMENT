@@ -107,11 +107,7 @@ To determine an application behaviour when a large number of users access the ap
 | Step | Description |
 |------|-------------|
 | 1    | Apache JMeter was opened and a new Test Plan was created and renamed to “LOAD  TEST.” This Test Plan acted as the main container for all testing components. |
-| 2    | A Thread Group was added to simulate multiple users accessing the website. 
-         Configuration :
-         Users : 10
-         Ramp up period(s) :2
-         Loop Count : 10|
+| 2    | A Thread Group was added to simulate multiple users accessing the website.|
 | 3    | Add HTTP Header Manager - This allowed the requests to appear as if they were coming from a real web browser.This setup directed JMeter to send GET requests to the Wikipedia homepage|
 | 4    | Add **Listeners** (Summary Report, View Result Tree). |
 | 5    | Add View Result Tree - It displayed detailed information such as response code, response time, and HTML data returned from the server.|
