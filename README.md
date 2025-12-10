@@ -108,21 +108,20 @@ To determine an application behaviour when a large number of users access the ap
 |------|-------------|
 | 1    | Apache JMeter was opened and a new Test Plan was created and renamed to “LOAD  TEST.” This Test Plan acted as the main container for all testing components. |
 | 2    | A Thread Group was added to simulate multiple users accessing the website. 
-Configuration :
-Users : 10
-Ramp up period(s) :2
-Loop Count : 10|
+         Configuration :
+         Users : 10
+         Ramp up period(s) :2
+         Loop Count : 10|
 | 3    | Add HTTP Header Manager - This allowed the requests to appear as if they were coming from a real web browser.This setup directed JMeter to send GET requests to the Wikipedia homepage|
 | 4    | Add **Listeners** (Summary Report, View Result Tree). |
 | 5    | Add View Result Tree - It displayed detailed information such as response code, response time, and HTML data returned from the server.|
 | 6    | Add Summary Report – to provide overall performance data including average, minimum, and maximum response time, throughput, and error percentage |
-| 7    | Start Test - The test was executed by clicking the green “Start” button on the JMeter toolbar. The listeners were used to monitor real-time results and verify that all requests were completed successfully. 
- |
+| 7    | Start Test - The test was executed by clicking the green “Start” button on the JMeter toolbar. The listeners were used to monitor real-time results and verify that all requests were completed successfully.|
 |8     | Capture Result - After execution, data from the Summary Report was analyzed to evaluate website performance, response stability, and throughput under simulated load conditions. 
 Example Configuration to execute data into excel file
 ![Configuration](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Configuration.jpg?raw=true)
 Result shows in Excel ‘Loading.Test.csv’
-![Result.csv]() |
+![Result.csv](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Result.jpg?raw=true) |
 
 ## **Result Summary**
 | **Label**           | **# Samples** | **Average (ms)** | **Min (ms)** | **Max (ms)** | **Std. Dev (ms)** | **Error %** | **Throughput** | **Received KB/sec** | **Sent KB/sec** | **Avg Bytes** |
