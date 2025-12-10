@@ -146,12 +146,27 @@ Stress test is the process of gradually increasing user load beyond expected lim
 Stress test is to test the system behaviour, to push the system beyond its normal operation and it is to determine the system stability.
 
 ## ⚙️ Stress Test Thread Group Setup
-<p align="center">
-  <img src="./about.png" width="600">
-</p>
+ ![stress test setup](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Setup%20stress%20test.png?raw=true)
 
-<div align="center">
- !{stress test setup]()
----
+ ## Result for Response time graph
+ ![Result](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Result%20response%20time.png?raw=true)
+
+ ## Result for View in table 
+ ![Result](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Result%20in%20table(stress).png?raw=true)
+
+ ## 🧠Recommendation – On Performance Improvement
+
+ | **Category**          | **Identified Issue**                               | **Recommendation**                                              | **Expected Impact**                                      |
+|------------------------|----------------------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------|
+| **JMeter Test Plan**   | GUI listeners slow down JMeter execution           | Disable heavy listeners (Results Tree/Table), use Non-GUI mode  | More accurate and higher-performance load testing         |
+| **Sample Size**        | Only 100 samples (not enough for stable conclusion)| Increase to 500–2000 samples                                     | More reliable and statistically valid results             |
+| **Network Configuration** | Potential network handshake overhead              | Enable HTTP Keep-Alive                                           | Reduces connection overhead and improves throughput       |
+
+## Conclusion
+The summary report shows that 100 HTTP requests were executed successfully with no errors (0%), indicating a stable server during the test run. The average response time was 984 ms, which is within acceptable limits for general web applications but shows room for improvement due to a high maximum response time of 3.49 seconds. The standard deviation of 398 ms indicates performance inconsistency, suggesting the server may have occasional processing delays or resource spikes.
+The throughput of 2.49 requests per second reflects the test design and server response time. With each response averaging 117 KB, the network throughput of 286 KB/sec indicates a moderate data load handled efficiently by the server.
+Overall, the system is functionally stable with no failures, but optimization may be needed to reduce high response-time variance and improve consistency under load.
+
 
 ## 👩‍💻 Demonstration Video
+
