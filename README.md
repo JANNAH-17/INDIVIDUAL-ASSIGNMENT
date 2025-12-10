@@ -134,7 +134,7 @@ To determine an application behaviour when a large number of users access the ap
 | **Category**                | **Observed Issue**                                           | **Recommendation**                                              | **Expected Improvement**                         |
 |-----------------------------|--------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------|
 | **Scalability / Load Handling** | Throughput low at 2.40 req/sec even with high user load      | Implement load balancing, horizontal scaling, use CDN           | Higher throughput and better handling of peak loads |
-| **JMeter Test Plan**        | Sudden user spikes from Ultimate Thread Group                | Use smoother ramp-up, run test in non-GUI mode, disable heavy listeners | More accurate and stable load simulation         |
+| **JMeter Test Plan**        | Sudden user spikes from Ultimate Thread Group                | Use smoother ramp-up, run test in non-GUI mode, disable heavy listeners | More accurate and stable load simulation |
 
 ## Conclusion
 The test results demonstrate that the system performs reliably under the given load profile. All endpoints maintained response times under 1.5 seconds, with zero errors, and achieved a healthy aggregate throughput of 23.4 requests per second. Bandwidth usage remained within reasonable levels. These metrics indicate that the system can sustain peak operational conditions without degradation or instability.
