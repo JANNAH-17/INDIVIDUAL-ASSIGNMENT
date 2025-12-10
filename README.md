@@ -120,7 +120,7 @@ Loop Count : 10|
  |
 |8     | Capture Result - After execution, data from the Summary Report was analyzed to evaluate website performance, response stability, and throughput under simulated load conditions. 
 Example Configuration to execute data into excel file
-![Configuration]()
+![Configuration](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Configuration.jpg?raw=true)
 Result shows in Excel ‘Loading.Test.csv’
 ![Result.csv]() |
 
