@@ -74,9 +74,9 @@ Purpose: Introduces a final peak load stage to push the system to its maximum ca
 ---
 
 ## 📝 Results Summary
-| **Response Time Behavior** | Response times increased significantly during the first spike (up to 150 users) |
-| **Throughput**             | The highest throughput was observed during the 150 + 25 user spike layer|
-| **Recovery Behavior**      | After the spike load reduced to 0 users, the system recovered without manual restart, indicating good resilience|
+| Response Time Behavior | Response times increased significantly during the first spike (up to 150 users) |
+|Throughput |The highest throughput was observed during the 150 + 25 user spike layer|
+| Recovery Behavior   |After the spike load reduced to 0 users, the system recovered without manual restart, indicating good resilience|
 
 ---
 
