@@ -74,10 +74,14 @@ Purpose: Introduces a final peak load stage to push the system to its maximum ca
 ---
 
 ## 📝 Results Summary
-| Response Time Behavior | Response times increased significantly during the first spike (up to 150 users) |
-|Throughput |The highest throughput was observed during the 150 + 25 user spike layer|
-| Recovery Behavior   |After the spike load reduced to 0 users, the system recovered without manual restart, indicating good resilience|
+1. Response Time Behavior
+> Response times increased significantly during the first spike (up to 150 users)
 
+2. Throughput
+> The highest throughput was observed during the 150 + 25 user spike layer
+
+3. Recovery Behavior
+> After the spike load reduced to 0 users, the system recovered without manual restart, indicating good resilience
 ---
 
 ##  🧠  Recommendations for improvement
@@ -91,10 +95,11 @@ Purpose: Introduces a final peak load stage to push the system to its maximum ca
 
 ---
 
-## 🧠 **Conclusion**
+## 🧠 Conclusion
 
 The spike test demonstrated that the system is generally capable of handling sudden and extreme increases in user load. It confirms that the system can withstand unexpected traffic surges, but improvements in scalability, backend performance, and error handling would further enhance its stability and responsiveness during real-world peak events.
-===================================================================================================================================================================================================================
+
+============================================================================================
 ## 😵‍💫 2. What is Load Test?
 To determine an application behaviour when a large number of users access the application. Load testing is to check how much load a system can handle and helps to identify the maximum operation capacity of any application. 
 
@@ -133,7 +138,9 @@ To determine an application behaviour when a large number of users access the ap
 
 ## Conclusion
 The test results demonstrate that the system performs reliably under the given load profile. All endpoints maintained response times under 1.5 seconds, with zero errors, and achieved a healthy aggregate throughput of 23.4 requests per second. Bandwidth usage remained within reasonable levels. These metrics indicate that the system can sustain peak operational conditions without degradation or instability.
-===================================================================================================================================================================================================================
+
+============================================================================================
+
 ## 😵‍💫 3. What is Stress Test?
 Stress test is the process of gradually increasing user load beyond expected limits to evaluate how a system performs under peak or excessive pressure. It helps identify the maximum capacity the application can handle before performance degrades or failures occur
 
