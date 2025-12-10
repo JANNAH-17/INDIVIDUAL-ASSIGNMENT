@@ -8,11 +8,9 @@
 **Group:** NBCS2555A
 **Course Code:** ITT440 - Network Programming  
 **Tool Used:** Apache JMeter  
-**Testing Type:** SPIKE TEST , LOAD TEST, STRESS TEST 
+**Testing Type:** Spike test, Load Test, Stress test
 **Target Website:** jmeter-plugins.org
  
-
-
 ## 😵‍💫 What is Spike Test?
 A Spike Test is a type of performance test used to evaluate how a system behaves when it experiences a sudden, extreme increase in load within a very short period of time.
 In JMeter, this involves generating a sharp and rapid rise in the number of virtual users (VUs) to observe the system’s stability, ability to recover, and overall performance under stress. 
@@ -50,9 +48,8 @@ The main purpose of a spike test is to understand how well the system responds t
 | 6    | Observe response times, throughput, and error rates during the spike. |
 | 7    | Export reports and analyze results. |
 
-(image spike test)
+![Spike test setup](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Spike%20setup.png?raw=true)
 ---
-
 ## ✍🏿 Sample Raw Data
 
 ![Raw data](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Result%20Raw%20Data.png?raw=true)
