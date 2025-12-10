@@ -114,10 +114,10 @@ To determine an application behaviour when a large number of users access the ap
 | 6    | Add Summary Report – to provide overall performance data including average, minimum, and maximum response time, throughput, and error percentage |
 | 7    | Start Test - The test was executed by clicking the green “Start” button on the JMeter toolbar. The listeners were used to monitor real-time results and verify that all requests were completed successfully.|
 |8     | Capture Result - After execution, data from the Summary Report was analyzed to evaluate website performance, response stability, and throughput under simulated load conditions. 
-          Example Configuration to execute data into excel file
-         ![Configuration](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Configuration.jpg?raw=true)
-         Result shows in Excel ‘Loading.Test.csv’
-         ![Result.csv](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Result.jpg?raw=true) |
+          Example Configuration to execute data into excel file |
+          ![Configuration](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Configuration.jpg?raw=true)
+          Result shows in Excel ‘Loading.Test.csv’
+          ![Result.csv](https://github.com/JANNAH-17/INDIVIDUAL-ASSIGNMENT/blob/main/Result.jpg?raw=true)
 
 ## **Result Summary**
 | **Label**           | **# Samples** | **Average (ms)** | **Min (ms)** | **Max (ms)** | **Std. Dev (ms)** | **Error %** | **Throughput** | **Received KB/sec** | **Sent KB/sec** | **Avg Bytes** |
